@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #1a1a1a;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  opacity: 0;
+  transform: translateY(-50px);
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  opacity: 0;
+  transform: translateY(50px);
+}
