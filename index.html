@@ -3,15 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>GSAP Site</title>
+  <title>GSAP Animation Heaven</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="floating-shapes">
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+  </div>
+
   <header class="hero">
-    <h1 class="title">Welcome to GSAP</h1>
-    <p class="subtitle">It's alive with animation!</p>
+    <h1 class="title">GSAP <span class="green">Magic</span></h1>
+    <p class="subtitle">Let the animations begin!</p>
+    <button class="cta">Click Me</button>
   </header>
+
+  <section class="section reveal">Section 1</section>
+  <section class="section reveal">Section 2</section>
+  <section class="section reveal">Section 3</section>
+
   <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+  <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
